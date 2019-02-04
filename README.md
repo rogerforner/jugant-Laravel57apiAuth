@@ -2,21 +2,17 @@
 
 ## Instalación
 
-**Descargar** el proyecto.
-
 ```bash
+# Descargar el proyecto con git.
+
 git clone https://github.com/rogerforner/mapa-api.git
-```
 
-**Instalar dependencias** del proyecto.
+# Instalar dependencias.
 
-```bash
 composer install
-```
 
-**Configurar** a través del archivo _env_.
+# Crear archivo de configuración.
 
-```bash
 cp .env.example .env
 ```
 
