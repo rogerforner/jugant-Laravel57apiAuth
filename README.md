@@ -29,3 +29,19 @@ $router->get('key', function () {
 ```bash
 php -S localhost:8000 -t public
 ```
+
+## Migraciones
+
+```bash
+# Realizar migraciones.
+
+php artisan migrate
+
+# Revertir todas las migraciones y ejecutar migraciones.
+
+php artisan migrate:refresh
+
+# Eliminar todas las tablas y ejecutar migraciones.
+
+php artisan migrate:fresh
+```
